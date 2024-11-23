@@ -1,4 +1,4 @@
-resource "aws_instance" "s7rosine_ec2_instance" {
+resource "aws_instance" "s8lagataf02_ec2_instance" {
   ami                    = var.ami_id  # Use variable for AMI ID
   instance_type         = var.instance_type  # Use variable for instance type
   subnet_id             = var.subnet_id  # Use variable for subnet ID
